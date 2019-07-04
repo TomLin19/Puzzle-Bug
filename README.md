@@ -1,2 +1,1 @@
-# Puzzle-Bug
-Homework 3 Troubleshooting
+# DandDExample_Summer19
