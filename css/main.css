@@ -108,3 +108,25 @@ footer {
 }
 
 #buttonHolder img:hover { opacity: .5; }
+
+.button {
+    color: lightblue;
+    background: #F3F3F3;
+    border: 5px #DADADA solid;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15pt;
+    outline: none;
+}
+
+.button:hover {
+    border: 1px #C6C6C6 solid;
+    box-shadow: 1px 1px 1px #EAEAEA;
+    color: black;
+    background: #F7F7F7;
+}
+
+.button:active {
+    box-shadow: inset 1px 1px 1px #DFDFDF;   
+}

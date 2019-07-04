@@ -5,6 +5,12 @@
 	<title>Drag and Drop Puzzle Game</title>
 	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet" type="text/css">
+	
+	<script>
+      function reloadPage(){
+      location.reload()
+}
+</script>
 </head>
 <body>
 	<header id="headLine">
@@ -43,6 +49,9 @@
 	    <img data-puzzleref="2" src="images/buttonTwo.jpg" alt="thumbnail">
 			<img data-puzzleref="3" src="images/buttonThree.jpg" alt="thumbnail">
 		</nav>
+		
+		<input type="button" value="Refresh Page" onclick="reloadPage()" class="button">
+		
 	</footer>
 
 	<script src="script/app.js"></script>

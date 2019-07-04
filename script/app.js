@@ -70,5 +70,14 @@
 			// add the image to the drop zone
 			e.target.appendChild(document.querySelector(`#${draggedElement}`));
 		});
+		
+		
 	})
+	function reloadpage(){
+	location.reload()
+};
+
+
 })();
+//add ReloadPage
+
